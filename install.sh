@@ -45,7 +45,7 @@ mkdir -p "$INSTALL_DIR"
 echo -e "📥 Baixando os códigos fofos da mamãe do GitHub..."
 # Note: In a real setup, this points to your GitHub repo. For now we clone/copy the local path or remote.
 # Let's clone a mock or fallback to copy. Since this is an installer script, we can clone the repo.
-git clone https://github.com/otk_ruy/MyMommy-CLI.git "$INSTALL_DIR" || {
+git clone https://github.com/rxLinux/MyMommy-CLI.git "$INSTALL_DIR" || {
     echo -e "${RED}❌ Não conseguimos baixar diretamente. Por favor, verifique se a URL do repositório está correta.${NC}"
     exit 1
 }
