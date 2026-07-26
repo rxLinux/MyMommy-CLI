@@ -1,0 +1,107 @@
+/* Global Styles */
+Screen {
+    background: #1e1e1e;
+    color: #d4d4d4;
+}
+
+#status-panel {
+    width: 30;
+    height: 100%;
+    background: #252526;
+    border-right: solid #333333;
+    padding: 1;
+}
+
+#status-container {
+    height: auto;
+}
+
+#app-title {
+    color: #61afef;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.status-row {
+    height: 1;
+    margin-bottom: 0;
+}
+
+.status-row Label:first-child {
+    width: 10;
+    color: #abb2bf;
+}
+
+.status-row Label:last-child {
+    color: #98c379;
+}
+
+#chat-area {
+    width: 1fr;
+}
+
+#chat-history {
+    height: 1fr;
+    padding: 1;
+    scrollbar-gutter: stable;
+}
+
+#chat-input {
+    background: #2d2d2d;
+    border: none;
+    padding: 0 1;
+    height: 3;
+}
+
+ChatMessage {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1;
+}
+
+/* Chat Messages */
+.message-container {
+    padding: 1;
+    height: auto;
+}
+
+.role-user {
+    background: #2c313a;
+}
+
+.role-assistant {
+    background: #2c1a24;
+    border-left: solid #ff69b4;
+}
+
+.role-mommy {
+    background: #2c1a24;
+    border-left: solid #ff69b4;
+}
+
+.role-tool {
+    background: #21252b;
+    color: #e5c07b;
+}
+
+.role-result {
+    background: #21252b;
+    color: #98c379;
+}
+
+.role-error {
+    background: #21252b;
+    color: #e06c75;
+}
+
+.message-role {
+    text-style: bold;
+    color: #61afef;
+    margin-bottom: 1;
+    height: auto;
+}
+
+.message-content {
+    color: #d4d4d4;
+    height: auto;
+}
